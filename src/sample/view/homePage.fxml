@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1366.0" style="-fx-background-color: #ff94c2;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.HomePageController">
+   <children>
+      <AnchorPane prefHeight="114.0" prefWidth="1366.0" style="-fx-background-color: #f06292;">
+         <children>
+            <JFXButton fx:id="logout" layoutX="1267.0" layoutY="74.0" style="-fx-background-color: #b4004e;" text="Logout" textFill="#fffe00">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </JFXButton>
+            <Label fx:id="welcome" layoutX="1022.0" layoutY="80.0" text="Welcome: Parveen Kumar" textFill="#fffe00">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="107.0" fitWidth="130.0" layoutX="290.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/logoo.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="schoolnamehomepage" layoutX="436.0" layoutY="14.0" text="School Name">
+               <font>
+                  <Font name="Arial Bold" size="48.0" />
+               </font>
+            </Label>
+            <Label fx:id="locationhomepage" layoutX="473.0" layoutY="69.0" text="Location">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <AnchorPane fx:id="studentRegPane" layoutX="22.0" layoutY="197.0" prefHeight="493.0" prefWidth="1318.0" style="-fx-background-color: #f3e5f5;">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <children>
+            <ImageView fitHeight="493.0" fitWidth="1318.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/homepage.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="119.0" prefHeight="62.0" prefWidth="1366.0" style="-fx-background-color: #b4004e;">
+         <children>
+            <JFXButton fx:id="newStudentReg" layoutX="98.0" layoutY="17.0" style="-fx-background-color: #ec407a;" text="New Student Registration">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="newEmployee" layoutX="830.0" layoutY="17.0" style="-fx-background-color: #ec407a;" text="New Employee">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="teacherDetails" layoutX="659.0" layoutY="17.0" style="-fx-background-color: #ec407a;" text="Teacher Details">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="newTeacher" layoutX="507.0" layoutY="16.0" style="-fx-background-color: #ec407a;" text="New Teacher">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="studentDetail" layoutX="337.0" layoutY="16.0" style="-fx-background-color: #ec407a;" text="Student Details">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="home" layoutX="14.0" layoutY="17.0" style="-fx-background-color: #ec407a;" text="Home">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="updateStudent" layoutX="1004.0" layoutY="17.0" style="-fx-background-color: #ec407a;" text="Update Student">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="updateTeacher" layoutX="1180.0" layoutY="17.0" style="-fx-background-color: #ec407a;" text="Update Teacher">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>

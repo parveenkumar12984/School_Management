@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="750.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.VerificationController">
+   <children>
+      <AnchorPane prefHeight="125.0" prefWidth="1366.0" style="-fx-background-color: #f06292;">
+         <children>
+            <Label layoutX="351.0" layoutY="34.0" text="Welcome to School Management">
+               <font>
+                  <Font name="Arial Bold" size="48.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <ImageView fitHeight="548.0" fitWidth="896.0" layoutX="14.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/login.jpg" />
+         </image>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </ImageView>
+      <AnchorPane layoutX="920.0" layoutY="151.0" prefHeight="548.0" prefWidth="418.0" style="-fx-background-color: #f06292;">
+         <children>
+            <ImageView fitHeight="67.0" fitWidth="55.0" layoutX="177.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/java-coffee-cup-logo.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="submitVerification" layoutX="65.0" layoutY="233.0" prefHeight="33.0" prefWidth="139.0" style="-fx-background-color: #ec407a;" text="Submit">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="cancelVerification" layoutX="215.0" layoutY="233.0" prefHeight="33.0" prefWidth="139.0" style="-fx-background-color: #ec407a;" text="Cancel">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXTextField fx:id="codeVerification" layoutX="65.0" layoutY="123.0" prefHeight="36.0" prefWidth="289.0" promptText="Enter Verification Code">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </JFXTextField>
+            <Label layoutX="94.0" layoutY="9.0" text="Verification Code" textFill="#4f00ff">
+               <font>
+                  <Font name="Arial Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="incorrectVerification" layoutX="65.0" layoutY="173.0" prefHeight="36.0" prefWidth="289.0" text="code" visible="false">
+               <font>
+                  <Font name="Arial Bold" size="19.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </AnchorPane>
+      <ImageView fitHeight="107.0" fitWidth="130.0" layoutX="225.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/logoo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

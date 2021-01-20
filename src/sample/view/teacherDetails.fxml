@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="493.0" prefWidth="1318.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.TeacherDetailController">
+   <children>
+      <TableView fx:id="tableViewTeacher" layoutY="45.0" prefHeight="428.0" prefWidth="1318.0">
+         <columns>
+            <TableColumn fx:id="idTeacher" prefWidth="64.99993896484375" text="TeacherID" />
+            <TableColumn fx:id="firstnameTeacher" prefWidth="84.00003051757812" text="First Name" />
+            <TableColumn fx:id="lastnameTeacher" prefWidth="87.0" text="Last Name" />
+            <TableColumn fx:id="fathernameTeacher" prefWidth="95.0" text="Father Name" />
+            <TableColumn fx:id="mothernameTeacher" minWidth="0.0" prefWidth="116.0" text="Mother Name" />
+            <TableColumn fx:id="qualificationTeacher" minWidth="6.0" prefWidth="90.0" text="Qualification" />
+            <TableColumn fx:id="genderTeacher" prefWidth="70.0" text="Gender" />
+            <TableColumn fx:id="villageTeacher" prefWidth="94.0" text="Village" />
+            <TableColumn fx:id="districtTeacher" prefWidth="76.0" text="District" />
+            <TableColumn fx:id="stateTeacher" prefWidth="78.0" text="State" />
+            <TableColumn fx:id="countryTeacher" minWidth="0.0" prefWidth="85.0" text="Country" />
+            <TableColumn fx:id="pincodeTeacher" prefWidth="81.0" text="Pincode" />
+            <TableColumn fx:id="contactTeacher" prefWidth="103.0" text="Contact No." />
+            <TableColumn fx:id="subjectTeacher" prefWidth="97.0" text="Subject" />
+            <TableColumn fx:id="experienceTeacher" prefWidth="93.0" text="Experience" />
+         </columns>
+      </TableView>
+      <Label layoutX="577.0" layoutY="8.0" text="Teachers Detail" textFill="#1800ff">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

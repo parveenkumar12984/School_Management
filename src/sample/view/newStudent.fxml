@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="493.0" prefWidth="1318.0" style="-fx-background-color: #f3e5f5;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.NewStudentController">
+   <children>
+      <Label layoutX="523.0" layoutY="14.0" text="Student Registration" textFill="#4f00ff">
+         <font>
+            <Font name="Arial Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="61.0" text="First Name">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="625.0" layoutY="61.0" text="Last Name">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="131.0" text="Father Name">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="625.0" layoutY="131.0" text="Mother Name">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="205.0" text="Class">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="625.0" layoutY="205.0" text="Gender">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="266.0" text="Village">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="625.0" layoutY="266.0" text="District">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="340.0" text="State">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="417.0" text="Pincode">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="625.0" layoutY="417.0" text="Contact No.">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="625.0" layoutY="340.0" text="Country">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="firstnameStudent" layoutX="272.0" layoutY="56.0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="lastnameStudent" layoutX="809.0" layoutY="56.0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="mothernameStudent" layoutX="809.0" layoutY="126.0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="villageStudent" layoutX="272.0" layoutY="261.0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="fathernameStudent" layoutX="272.0" layoutY="126.0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="stateStudent" layoutX="272.0" layoutY="335.0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="contactStudent" layoutX="799.0" layoutY="413.0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="pincodeStudent" layoutX="272.0" layoutY="413.0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="districtStudent" layoutX="809.0" layoutY="261.0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="countryStudent" layoutX="809.0" layoutY="335.0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXComboBox fx:id="classStudent" layoutX="272.0" layoutY="201.0" prefHeight="25.0" prefWidth="170.0" promptText="Select Class" />
+      <JFXComboBox fx:id="genderStudent" layoutX="809.0" layoutY="201.0" prefHeight="25.0" prefWidth="170.0" promptText="Select Gender" />
+      <JFXButton fx:id="saveStudent" layoutX="1165.0" layoutY="91.0" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #ec407a;" text="Save">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="resetStudent" layoutX="1165.0" layoutY="230.0" prefHeight="33.0" prefWidth="84.0" style="-fx-background-color: #ec407a;" text="Reset">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
